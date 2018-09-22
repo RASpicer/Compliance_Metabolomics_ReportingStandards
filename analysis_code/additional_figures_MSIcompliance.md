@@ -40,6 +40,7 @@ ggplot(Species, aes(x=Database, y=Frequency, fill=Species))  +
                                "Other Species",
                                expression(italic("Rattus norvegicus")))) +
   ylab("Number of Studies") +
+  xlab("Repository") +
   theme_bw() +
   theme(axis.text = element_text(colour = "black"),
         legend.text.align = 0,
@@ -70,6 +71,7 @@ ggplot(Species, aes(x=Database, y=Percentage, fill=Species))  +
                                "Other Species",
                                expression(italic("Rattus norvegicus")))) +
   ylab("Studies (%)") +
+  xlab("Repository") +
   theme_bw() +
   theme(axis.text = element_text(colour = "black"),
         legend.text.align = 0,
